@@ -1,0 +1,317 @@
+:root {
+    --bg-color: #252525;
+    --sub-bg-color: #333;
+    --primery-color: #F8835B;
+    --secondary-color: #f2f2f2;
+
+
+}
+
+
+
+
+* {
+
+    margin: 10px 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.content {
+    font-style: normal;
+    display: flex;
+    line-height: normal;
+}
+
+.container-1 {
+    width: 387px;
+    background-color: var(--sub-bg-color);
+    border-radius: 8px;
+    height: 756px;
+
+}
+
+
+.container-1 .about-me h2 {
+    color: var(--primery-color);
+
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.container-1 .about-me h3 {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.container-1 .about-me p {
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.container-1 .contact {
+    margin-top: 29px;
+}
+
+.container-1 .contact h2 {
+    color: var(--primery-color);
+
+    font-size: 20px;
+
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.container-1 .contact h3,
+.title {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.container-1 .contact-no,
+.my-accounts,
+.btn-div {
+    margin-left: 0;
+}
+
+.container-1 .contact .address,
+.num {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container-1 .contact .my-accounts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 .contact .my-accounts img {
+    width: 34px;
+}
+
+.container-1 .contact button {
+    padding: 11px 21px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+
+
+}
+
+.container-1 .contact .btn-div {
+    margin-left: 7px;
+}
+
+.container-1 .contact #contact-me {
+    color: var(--primery-color);
+    border: 1px solid var(--primery-color);
+    background: none;
+
+}
+
+.container-1 .contact #contact-me:hover {
+    color: #ea6031;
+}
+
+.container-1 .contact #download-cv {
+    border: 1px solid var(--primery-color);
+    background-color: var(--primery-color);
+    color: var(--secondary-color);
+}
+
+.container-1 .contact #download-cv:hover {
+    background-color: #d6653f;
+}
+
+.container-2 {
+    padding: 21px;
+    background-color: var(--sub-bg-color);
+    border-radius: 8px;
+}
+
+.container-2 .work-exp h2 {
+    color: var(--primery-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+.container-2 .work-exp .exp h3 {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.container-2 .work-exp .exp h3 span {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container-2 .work-exp .exp p {
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.container-2 .work-exp .exp {
+    position: relative;
+    left: -14px;
+
+}
+
+.container-2 .education {
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+
+.container-2 .education h2 {
+    color: var(--primery-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+.container-2 .education .edu h3 {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+
+}
+
+.container-2 .education .edu h3 span {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container-2 .education .edu p {
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.container-2 .education .edu {
+    position: relative;
+    left: -13px;
+}
+
+.skills-div {
+    margin-top: 46px;
+}
+
+.skills-div h3 {
+    color: var(--primery-color);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.skills-div .skills {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.skills-div .skills .sub-skills .stars {
+    display: flex;
+}
+
+.skills-div .skills .sub-skills {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -28px;
+}
+
+.skills-div .skills .sub-skills h5 {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 258px;
+
+}
+
+.writing-sec{
+    margin-top: 24px;
+}
+
+.writing-sec h2 {
+    color: var(--primery-color);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.writing-sec .writing {
+    display: flex;
+    color: var(--secondary-color);
+  
+}
+
+.writing-sec .writing h3 {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.writing-sec .writing p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.writing-sec #view-btn{
+    padding: 12px 35px;
+    background: none;
+    border: 1px solid var(--primery-color);
+    color: var(--primery-color);
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+
+}
+
+.writing-sec #view-btn:hover{
+    border: 2px solid var(--primery-color);
+    color: #c28875;
+}

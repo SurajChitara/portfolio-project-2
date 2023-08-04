@@ -1,0 +1,190 @@
+@media (max-width:600px) {
+   
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    .content {
+
+        width: 93%;
+        flex-direction: column;
+        gap: 29px;
+    }
+
+    .container-1 {
+        width: 102%;
+        margin: 0;
+        height: auto;
+    }
+
+    .about-me{
+        margin: 7px;
+        
+    }
+
+    
+
+    .container-1 .contact .btn-div {
+        margin-left: 0;
+    }
+
+    .container-2 {
+        margin: 0;
+        width: 102%;
+    }
+
+    .work-exp {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .education {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-2 .work-exp .exp h3 {
+        width: 100%;
+    }
+
+    .container-2 .work-exp .exp {
+        width: 100%;
+    }
+
+    .container-2 .work-exp .exp p {
+        font-size: 11px;
+    }
+
+
+    .container-2 .education .edu h3 {
+        width: 100%;
+    }
+
+    .container-2 .education .edu p {
+        width: 100%;
+    }
+
+    .skills-div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .skills-div .skills .sub-skills {
+        max-width: 500px;
+        width: 109%;
+        margin: 0;
+    }
+
+    .skills-div .skills .sub-skills h5 {
+        font-size: 14px;
+    }
+
+    .writing-sec .writing {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .blogs {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .writing-sec {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blogs img,
+    .writing-sec .writing p {
+        width: 93%;
+    }
+
+    .skills img{
+        margin: 10px 4px;
+    }
+    .skills-div .skills .sub-skills .stars{
+        margin-right: 0;
+    }
+
+    .writing-sec #view-btn{
+        margin-bottom: 22px;
+    }
+  
+}
+
+@media (max-width:436px){
+
+   
+    .skills-div .skills .sub-skills h5{
+        font-size: 11px;
+    }
+
+    .skills-div .skills .sub-skills{
+        width: 120%;
+    }
+    .blogs{
+        margin-right: 11px;
+    }
+
+    .container-2 .work-exp .exp h3{
+        width: 92%;
+    }
+
+    .container-1 .contact #contact-me{
+        padding: 11px 13px;
+    }
+
+    .container-1 .contact #download-cv{
+        padding: 11px 18px;
+    }
+
+}
+
+
+@media (max-width:375px){
+
+    :root{
+        margin-left: 1px;
+    }
+    
+    .container-1 .about-me p{
+        font-size: 10px;
+    }
+
+    .container-1 .contact{
+        margin: 31px 5px;
+    }
+
+    .work-exp{
+       margin-top: 5px;
+    }
+
+    
+    
+    .container-2{
+        padding: 6px;
+    }
+
+    .skills-div{
+        padding: 7px;
+    }
+
+    .skills img{
+        margin: 10px 1px;
+    }
+
+    .skills-div .skills .sub-skills{
+        width: 113%;
+    }
+
+
+    .skills-div h3{
+        margin: 0;
+    }
+}
+
